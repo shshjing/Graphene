@@ -10,7 +10,7 @@
 #import "SerializeDelegate.h"
 
 @interface AssetAmount : NSObject<SerializeDelegate>
-@property (nonatomic,strong) NSString* asset_id;
+@property (nonatomic,copy) NSString* asset_id;
 @property (nonatomic,assign) int64_t amount;
 -(instancetype)initWithAsset:(NSString*)asset_id amount:(int64_t)amount;
 @end

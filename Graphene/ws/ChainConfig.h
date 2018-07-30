@@ -9,8 +9,8 @@
 #ifndef ChainConfig_h
 #define ChainConfig_h
 
-#define ADDRESS_PREFIX @"GXC"
-#define DEFAULT_ASSET_ID @"1.3.1"
+#define ADDRESS_PREFIX @"IDAC"
+#define DEFAULT_ASSET_ID @"1.3.0"
 #define EXPIRE_IN_SECOND 15
 #define DEFAULT_CHAIN_ID @"bc59e6e7f500fa56504ce7101f7df8eb74151398f62167567adcf18a026928d1"
 

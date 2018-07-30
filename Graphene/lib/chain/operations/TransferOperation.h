@@ -13,6 +13,7 @@
 @interface TransferOperation : BaseOperation
 @property (nonatomic,strong) NSString* from;
 @property (nonatomic,strong) NSString* to;
+@property (nonatomic,strong) AssetAmount* fee;
 @property (nonatomic,strong) AssetAmount* amount;
 @property (nonatomic,strong) MemoData* memo;
 @property (nonatomic,strong) NSArray* extensions;
